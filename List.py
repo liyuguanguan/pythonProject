@@ -68,6 +68,7 @@ if __name__ == '__main__':
     # 遍历元素
     for sqqq in sqq[:3]:
         print(sqqq)
+    # 深copy
     aa = sqq[:]
     print(aa)
     print(*map(str, sqq))
@@ -80,5 +81,10 @@ if __name__ == '__main__':
     bbbb.append('bbb')
     print(aaaa)
     print(bbbb)
+
+my_list = [1,2,3,4,5]
+
+# 1:4:3 其中的3是步长，步长是什么意思呢 比如 1 2 3 4 5 6 7 8 9 这几个数 步长是2的话只能是1 3 5 7 9 步长也就是间隔，如果不指定默认是1
+print(my_list[1:4:3])
 
 

@@ -42,3 +42,10 @@ if __name__ == '__main__':
             print('hahaha')
 
     print("aa:" + f"{fdsfds}")
+
+    # 判断是否为空
+    aaaa = None
+    if aaaa:
+        print("dsad")
+    else:
+        print("dsadsadsa")
